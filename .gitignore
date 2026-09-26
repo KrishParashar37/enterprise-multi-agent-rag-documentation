@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build output
+.next/
+out/
+dist/
+build/
+
+# Environment variables (NEVER push secrets to GitHub)
+.env
+.env.local
+.env.production
+.env.development
+backend/.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp / cache
+tmp/
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Uploads
+uploads/
+
+# Misc
+test-groq.js
